@@ -1,83 +1,113 @@
-# blackspike astro landing page
+# Site Institucional - Pamonhas MIL
 
-[<img src="public/theme-preview/github-preview.jpg" alt="screens showing theme parts on iPads" style="max-width: 100%; height: auto; width: 100%;" width="1600">](public/theme-preview/github-preview.jpg)
+![Capa do Projeto](URL_DA_SUA_IMAGEM_DE_CAPA_AQUI)
 
-## A free, modern, [Astro](https://astro.build/) landing page theme made with [Tailwind](https://tailwindcss.com/) to help kick start your next Astro project
+*Status do Projeto: Em Desenvolvimento | **Concluído** | Arquivado*
 
-We built this page as the first version of our own website, [blackspike.com](https://www.blackspike.com), but switched to a different design later.
+---
 
-Rather than let it gather dust, we decided to modernise it, try out some fresh new CSS features and give it back to the Astro community.
+### 📋 Índice
 
-You can read more about how we built it and the cool new tech we used [on our blog post](https://www.blackspike.com/blog/blackspike-free-astro-tailwind-theme/).
+* [Sobre o Projeto](#-sobre-o-projeto)
+* [✨ Funcionalidades](#-funcionalidades)
+* [🚀 Tecnologias Utilizadas](#-tecnologias-utilizadas)
+* [🏁 Como Rodar o Projeto Localmente](#-como-rodar-o-projeto-localmente)
+* [🛠️ Comandos do Projeto](#️-comandos-do-projeto)
+* [📂 Estrutura de Pastas](#-estrutura-de-pastas)
+* [🙏 Agradecimentos](#-agradecimentos)
+* [📫 Contato](#-contato)
 
-Now available as an official Astro theme! [Download it from the Astro themes page](https://astro.build/themes/details/blackspike-astro-landing-page/)
+---
 
-## Live demo https://astro-theme.blackspike.com
+### 💻 Sobre o Projeto
 
-We hope you find it useful!
+Este repositório contém o código-fonte do site institucional da **Pamonhas MIL**, uma empresa tradicional de Ribeirão Preto - SP, fundada em 2014 por Iasnaia Marques.
 
-## License
+O objetivo do projeto foi criar uma vitrine digital moderna e profissional que transmitisse os valores da marca: **tradição, família e a qualidade** de um produto artesanal. O site serve como o principal canal de comunicação da empresa, apresentando sua história, seu cardápio e facilitando o contato para encomendas.
 
-Theme and 3D images are licensed under a [Creative Commons Attribution 4.0 International Public License](https://creativecommons.org/licenses/by/4.0/).
+[➡️ Acesse o site no ar](URL_DO_SITE_NO_AR)
 
-Created by blackspike [blackspike design](https://www.blackspike.com) – a web design & development team specialising in Astro, Vue, Nuxt & Wordpress websites
+---
 
-## Astro 5 Features
+### ✨ Funcionalidades
 
-- [Image component](https://docs.astro.build/en/guides/images/#display-optimized-images-with-the-image--component) for optimised AVIF images
-- All-[JSX](https://docs.astro.build/en/reference/astro-syntax/) native astro components
-- SVGs imported as [SVG components](https://docs.astro.build/en/guides/images/#svg-components)
-- JSON-powered content (easy to edit UI text or hook up a CMS!)
-- Experimental [Fonts API](https://docs.astro.build/en/reference/experimental-flags/fonts/)
+* **Design Responsivo:** Experiência de usuário consistente em desktops, tablets e celulares.
+* **Página "Nossa História":** Uma seção dedicada a contar a história da fundadora, criando uma forte conexão emocional com o cliente.
+* **Cardápio Dinâmico:** Apresentação visual dos produtos, com filtros por categoria para facilitar a navegação.
+* **Conteúdo Gerenciável:** O cardápio é gerenciado via **Astro Content Collections**, permitindo que a cliente atualize produtos facilmente (via arquivos Markdown), sem precisar mexer no código.
+* **SEO Otimizado:** Boas práticas de SEO implementadas para garantir um bom ranqueamento nos motores de busca.
+* **Contato Direto:** Botões de "Call to Action" que levam diretamente para o WhatsApp da empresa, facilitando a conversão.
 
-## CSS & HTML Features
+---
 
-- [Tailwind 4](https://tailwindcss.com/blog/tailwindcss-v4)
-- HTML modal dialog
-- JS-free scroll-linked animations
-- JS-free exclusive accordions with details/summary (animated!)
-- Container queries
-- Linear easing for bouncing / springing
-- Text wrap pretty / balance
+### 🚀 Tecnologias Utilizadas
 
-## JS Features
+O projeto foi desenvolvido utilizando as seguintes tecnologias:
 
-- [swiper.js](https://swiperjs.com/) carousel
+* **[Astro](https://astro.build/)**: Framework web focado em performance para a construção de sites rápidos.
+* **[Tailwind CSS](https://tailwindcss.com/)**: Framework CSS utility-first para estilização rápida e responsiva.
+* **[TypeScript](https://www.typescriptlang.org/)**: Superset do JavaScript que adiciona tipagem estática ao código.
+* **Hospedagem**: [Vercel](https://vercel.com/) / [Netlify](https://www.netlify.com/) (escolha a que você usou)
 
-## Previews
+---
 
-[<img src="public/theme-preview/blackspike-theme-1.jpg" alt="screenshot of dark theme landing page on desktop and on ipad browsers" style="max-width: 100%; height: auto; width: 100%;" width="1600">](public/theme-preview/blackspike-theme-1.jpg)
+### 🏁 Como Rodar o Projeto Localmente
 
-[<img src="public/theme-preview/blackspike-theme-2.jpg" alt="screenshot of dark theme carousel slides with 3D backgrounds" style="max-width: 100%; height: auto; width: 100%;" width="1600">](public/theme-preview/blackspike-theme-2.jpg)
+Siga os passos abaixo para configurar e rodar o projeto em seu ambiente de desenvolvimento.
 
-[<img src="public/theme-preview/blackspike-theme-4.jpg" alt="screens showing theme parts" style="max-width: 100%; height: auto; width: 100%;" width="1600">](public/theme-preview/blackspike-theme-4.jpg)
+**Pré-requisitos:**
+* [Node.js](https://nodejs.org/en/) (versão 18 ou superior)
+* [Git](https://git-scm.com/)
 
-[<img src="public/theme-preview/blackspike-theme-5.jpg" alt="dark theme pricing section on laptop and iPhone browsers" style="max-width: 100%; height: auto; width: 100%;" width="1600">](public/theme-preview/blackspike-theme-5.jpg)
+```bash
+# 1. Clone o repositório
+$ git clone [https://github.com/SEU_USUARIO/NOME_DO_REPOSITORIO.git](https://github.com/SEU_USUARIO/NOME_DO_REPOSITORIO.git)
 
-[<img src="public/theme-preview/blackspike-theme-full.webp" alt="full page preview" style="max-width: 100%; height: auto; width: 100%;" width="1600">](public/theme-preview/blackspike-theme-full.webp)
+# 2. Acesse a pasta do projeto
+$ cd NOME_DO_REPOSITORIO
 
-## Credits
+# 3. Instale as dependências
+$ npm install
 
-- Fake logos by [uicontent.co](https://uicontent.co/svg-dummy-logo/)
-- Quote avatar person by [thispersondoesnotexist.com](https://thispersondoesnotexist.com/)
-- Misc icons and logo from [icones.js.org](https://icones.js.org/) by [@antfu](https://github.com/antfu)
-- Carousel powered by [swiperjs.com](https://swiperjs.com/)
-- Inter font by [rsms.me](https://rsms.me/inter/)
+# 4. Rode o servidor de desenvolvimento
+$ npm run dev
+```
 
-## Tags
+Após rodar o último comando, abra [http://localhost:4321](http://localhost:4321) em seu navegador para ver o resultado.
 
-#tailwind #tailwind4 #astro #landingPage #css #html #swiper #dark #theme
+---
 
-## Commands
+### 🛠️ Comandos do Projeto
 
-All commands are run from the root of the project, from a terminal:
+* `npm run dev`: Inicia o servidor de desenvolvimento local.
+* `npm run build`: Gera a versão de produção do site na pasta `dist/`.
+* `npm run preview`: Inicia um servidor local para visualizar a versão de produção.
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+---
 
+### 📂 Estrutura de Pastas
+
+O projeto utiliza a estrutura de pastas padrão do Astro:
+
+* `public/`: Para arquivos estáticos como fontes e imagens globais.
+* `src/assets/`: Para assets que serão processados pelo Astro (imagens otimizadas).
+* `src/components/`: Para componentes Astro reutilizáveis (Header, CardápioItem, etc.).
+* `src/content/`: Para as **Content Collections** (ex: o cardápio).
+* `src/layouts/`: Para os templates de layout das páginas.
+* `src/pages/`: Para as páginas e rotas do site.
+
+---
+
+### 🙏 Agradecimentos
+
+Agradeço à **Iasnaia Marques** e à **Pamonhas MIL** pela confiança e pela oportunidade de desenvolver este projeto tão especial.
+
+---
+
+### 📫 Contato
+
+**[Seu Nome Completo]**
+
+* [LinkedIn](URL_DO_SEU_LINKEDIN)
+* [Portfólio](URL_DO_SEU_PORTFOLIO)
+* [Email](SEU_EMAIL_DE_CONTATO)

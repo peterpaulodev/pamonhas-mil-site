@@ -1,34 +1,30 @@
 {
-  "title": "blackspike astro landing page",
+  "title": "Pamonhas Mil",
   "description": "A free Astro landing theme made with Tailwind",
   "social_image": "/1200x630.jpg",
   "base_url": "https://astro-theme.blackspike.com",
   "demo": {
-    "title": "Need design?",
-    "content": "<strong>Get a guided tour through our services</strong>, and find out how you and your team can change the way you work, forever.",
-    "cta": "Book a call"
+    "title": "Olá, como posso te ajudar hoje?",
+    "content": "<strong>Entre em contato conosco para conhecer mais.</strong>",
+    "cta": "Fale Conosco"
   },
   "theme_color": "#18181b",
   "nav": [
     {
-      "title": "Services",
+      "title": "Nossa história",
       "link": "/#services"
     },
     {
-      "title": "Case studies",
+      "title": "Eventos",
       "link": "/#case-studies"
     },
     {
-      "title": "Pricing",
+      "title": "Cardápio",
+      "link": "/#case-studies"
+    },
+    {
+      "title": "Onde nos encontrar?",
       "link": "/#pricing"
-    },
-    {
-      "title": "FAQ",
-      "link": "/#faq"
-    },
-    {
-      "title": "Newsletter",
-      "link": "/#newsletter"
     }
   ],
 

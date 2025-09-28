@@ -1,30 +1,30 @@
 [
   {
-    "title": "We create timeless visual identities for modern brands.",
-    "content": "<strong>Great companies are built on their ability to adapt and grow.</strong> We create brands that will adapt and flourish no matter where the market takes you.",
-    "cta": "Call us about branding",
-    "image": "/content-images/blackspike-wallpaper-01.avif",
-    "image_alt": ""
+    "title": "A Autêntica Pamonha, Nascida da Tradição Familiar",
+    "content": "<strong>Nossa história começou em 2014, com uma receita de família e um sonho.</strong> <br><br> <quote><i>“Para mim, cada pamonha não é apenas uma receita; é uma forma de compartilhar carinho e a história da minha família com cada cliente.”</i></quote> <br> - Iasnaia Marques, Fundadora",
+    "cta": "Conheça nossa história",
+    "image": "/content-images/carrossel-iasnaia.png",
+    "image_alt": "Foto de Iasnaia Marques, fundadora, ao lado de pamonhas artesanais."
   },
   {
-    "title": "We design websites that drive conversions and delight users.",
-    "content": "<strong>Experts in imagining future interfaces and experiences.</strong> From UX to creative to analytics, we are there every step of the way.",
-    "cta": "Book a website review call",
-    "image": "/content-images/blackspike-wallpaper-02.avif",
-    "image_alt": ""
+    "title": "Sabor que Vem do Milho Fresco e Selecionado",
+    "content": "<strong>Acreditamos que o segredo de uma boa pamonha está na qualidade do ingrediente.</strong> Selecionamos o melhor milho para criar não só pamonhas, mas também curau, bolos e outras delícias que celebram o autêntico sabor do campo.",
+    "cta": "Ver nosso cardápio completo",
+    "image": "/content-images/carrossel-produtos.jpg",
+    "image_alt": "Imagem mostrando a variedade de produtos feitos com milho, como pamonhas, bolo e curau."
   },
   {
-    "title": "Design across all dimensions",
-    "content": "<strong>Outstanding 3D design and concepts.</strong> We provide top-of-the-line 3D modelling services delivered by our skilled team of 3D artists.",
-    "cta": "Our 3D Services",
-    "image": "/content-images/blackspike-wallpaper-03.avif",
-    "image_alt": ""
+    "title": "Presentes nos Melhores Momentos da Cidade",
+    "content": "<strong>De festas juninas a eventos de negócios, levamos nosso sabor para a comunidade.</strong> Somos uma empresa local, parceira do Sebrae e apaixonada por fazer parte da história e dos eventos de Ribeirão Preto.",
+    "cta": "Leve nosso sabor para seu evento",
+    "image": "/content-images/carrossel-banca.png",
+    "image_alt": "Barraca da Pamonhas MIL em uma festa junina ou evento local."
   },
   {
-    "title": "Apps for all devices and seasons",
-    "content": "<strong>We help companies supercharge their apps by providing world-class, effective design.</strong> Best practice design processes for your products",
-    "cta": "Arrange an app demo",
-    "image": "/content-images/blackspike-wallpaper-04.avif",
-    "image_alt": ""
+    "title": "Sinta o Aconchego da Nossa Cozinha na Sua Casa",
+    "content": "<strong>Quer um café da tarde especial ou uma encomenda para a família?</strong> Experimente o sabor que conquistou a cidade e leve um pedacinho da nossa tradição e afeto para o seu lar.",
+    "cta": "Faça sua encomenda agora",
+    "image": "/content-images/carrossel-banca2.png",
+    "image_alt": "Pamonhas embaladas e prontas para entrega, com uma aparência convidativa."
   }
 ]

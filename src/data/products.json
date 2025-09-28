@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Pamonha Artesanal",
+    "content": "<strong>Delicie-se com nossa pamonha feita com milho fresco, preparada diariamente para garantir o melhor sabor.</strong><br><br>Disponível nas versões tradicional, com queijo derretido no ponto certo ou salgada com tempero especial da casa. Uma experiência única de sabor em cada mordida!",
+    "image": "/content-images/pamonha-tradicional.jpg",
+    "image_alt": "Pamonha artesanal em folha de milho"
+  },
+  {
+    "title": "Bolo de Milho Cremoso",
+    "content": "<strong>Nosso bolo de milho cremoso é uma verdadeira tentação!</strong><br><br>Feito com milho fresco, leite de coco e um toque especial de canela. Disponível na versão tradicional ou com a nossa receita exclusiva cremosa, que leva creme de leite fresco e queijo ralado na massa, resultando em uma textura úmida e sabor inigualável.",
+    "image": "/content-images/bolo-milho-cremoso.jpg",
+    "image_alt": "Bolo de milho cremoso fatiado"
+  },
+  {
+    "title": "Curau Caseiro",
+    "content": "<strong>O verdadeiro sabor da roça no seu prato!</strong><br><br>Nosso curau é preparado com milho ralado na hora, levemente adoçado e cozido na palha do milho, preservando todo o sabor e tradição. Uma receita que remete às tardes na fazenda, perfeito para acompanhar um bom café ou como sobremesa especial.",
+    "image": "/content-images/curau-caseiro.avif",
+    "image_alt": "curau de milho embrulhado na palha"
+  }
+]

@@ -2,15 +2,16 @@
 
 import Image from "astro/components/Image.astro"
 import hero_screens from "../assets/theme-images/hero-screens.png"
+import logo from "../assets/theme-images/header-logo.png"
 
 const { settings, title, content } = Astro.props
 
 ---
 
-<section class="bs-container py-6 flex flex-col lg:flex-row items-center">
+<section class="bs-container py-6 flex justify-center">
 
   <!-- Content -->
-  <div class="flex flex-col gap-6 lg:max-w-lg w-full py-16">
+  <div class="flex flex-col text-center justify-center gap-6 w-full px-50 py-16">
 
     <!-- Title -->
     <h1 class="bs-h1" set:html={ title } />
@@ -19,17 +20,18 @@ const { settings, title, content } = Astro.props
     <div class="bs-body-text xl:text-xl flex flex-col gap-4 [&_p]:last:text-bs-foreground-dark" set:html={ content } />
 
     <!-- CTA -->
-    <button type="button" class="bs-btn self-start bs-mt-sm" onclick="demo.showModal()">
+    <button type="button" class="bs-btn justify-center self-center bs-mt-sm" onclick="demo.showModal()">
       { settings.demo.cta }
     </button>
 
   </div>
 
   <!-- Image -->
-  <figure class="flex place-content-center -mt-20 lg:mt-0">
+  <!-- <figure class="flex lg:mt-0 mr-20"> -->
 
-    <Image src={ hero_screens } format="avif" quality="high" alt="Screens showing phone, tablet and desktop views of our website" loading="eager" />
+    <!-- <Image src={ hero_screens } format="avif" quality="high" alt="Screens showing phone, tablet and desktop views of our website" loading="eager" /> -->
+    <!-- <img src={ logo.src } alt="Empresa Pamonhas Mil logo" loading="lazy" height="400" width="400" /> -->
 
-  </figure>
+  <!-- </figure> -->
 
 </section>

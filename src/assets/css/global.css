@@ -8,9 +8,9 @@
   --color-bs-surface-0: #121212;
   --color-bs-surface-1: #18181B;
   --color-bs-surface-2: rgba(255, 255, 255, 0.03);
-  --color-bs-surface-3: #2F2F31;
+  --color-bs-surface-3: #7e172a;
 
-  --color-bs-foreground-light: #eee;
+  --color-bs-foreground-light: #fff;
   --color-bs-foreground-dark: #9f9f9f;
 
   --color-current: currentColor;
