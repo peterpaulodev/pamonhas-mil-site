@@ -1,8 +1,8 @@
 {
   "title": "Pamonhas Mil",
-  "description": "A free Astro landing theme made with Tailwind",
+  "description": "Pamonhas Mil, o sabor da pamonha que une gerações, da nossa família para a sua.",
   "social_image": "/1200x630.jpg",
-  "base_url": "https://astro-theme.blackspike.com",
+  "base_url": "https://pamonhas-mil.com",
   "demo": {
     "title": "Olá, como posso te ajudar hoje?",
     "content": "<strong>Entre em contato conosco para conhecer mais.</strong>",
@@ -30,24 +30,8 @@
 
   "social_links": [
     {
-      "title": "Twitter / X",
-      "link": "https://x.com/blackspikeltd/"
-    },
-    {
-      "title": "Mastodon",
-      "link": "https://mastodon.cloud/@blackspike"
-    },
-    {
-      "title": "GitHub",
-      "link": "https://github.com/blackspike/"
-    },
-    {
-      "title": "LinkedIn",
-      "link": "https://www.linkedin.com/company/blackspike"
-    },
-    {
-      "title": "Bluesky",
-      "link": "https://bsky.app/profile/blackspike.com/"
+      "title": "Instagram",
+      "link": "https://instagram.com/pamonhasmil"
     }
   ]
 }

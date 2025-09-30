@@ -35,23 +35,13 @@ const { content } = Astro.props
         <!-- Form inputs -->
 
         <!-- Name -->
-        <label class="sr-only" for="name">Name</label>
+        <label class="sr-only" for="name">Nome</label>
 
         <input
           id="name"
           type="text"
           class="border-2 rounded-lg bg-bs-surface-0 border-bs-surface-3 form-input px-4 py-3"
-          placeholder="Your name"
-        >
-
-        <!-- Company -->
-        <label class="sr-only" for="company">Company</label>
-
-        <input
-          id="company"
-          type="text"
-          class="border-2 rounded-lg bg-bs-surface-0 border-bs-surface-3 form-input px-4 py-3"
-          placeholder="Your company"
+          placeholder="Seu nome"
         >
 
         <!-- Email -->
@@ -61,17 +51,46 @@ const { content } = Astro.props
           id="email"
           type="email"
           class="border-2 rounded-lg bg-bs-surface-0 border-bs-surface-3 form-input px-4 py-3"
-          placeholder="Your email"
+          placeholder="Seu email"
         >
 
         <!-- Submit -->
-        <button class="bs-btn form-input px-4 py-3">{ content.cta }</button>
+        <button type="button" onclick="return sendMessageToWhatsapp()" class="bs-btn form-input px-4 py-3">
+          { content.cta }
+        </button>
 
     </div>
 
   </form>
 
 </dialog>
+
+<script>
+  // Adiciona a função ao escopo global
+  window.sendMessageToWhatsapp = function() {
+    const name = (document.getElementById('name') as HTMLInputElement)?.value || '';
+    const email = (document.getElementById('email') as HTMLInputElement)?.value || '';
+
+    // Validação simples
+    if (!name || !email) {
+      alert('Por favor, preencha todos os campos');
+      return false;
+    }
+
+    // Codifica corretamente a URL
+    const text = `Olá, eu me chamo ${encodeURIComponent(name)} e gostaria de fazer um pedido. Meu email é ${encodeURIComponent(email)}`;
+    const url = `https://wa.me/5516994490199?text=${text}`;
+
+    // Abre o WhatsApp
+    window.open(url, '_blank');
+
+    // Fecha o diálogo
+    const dialog = document.getElementById('demo');
+    if (dialog) dialog.close();
+
+    return false;
+  };
+</script>
 
 <style>
 

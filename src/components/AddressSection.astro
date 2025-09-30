@@ -1,5 +1,5 @@
 ---
-const { title = "Onde nos encontrar" } = Astro.props;
+const { title = "Onde nos encontrar?", subtitle } = Astro.props;
 
 // Dados dos endereços
 const enderecos = [
@@ -28,7 +28,7 @@ const enderecos = [
     <h2 class="text-3xl md:text-4xl font-bold text-bs-text mb-4">{title}</h2>
     <div class="w-20 h-1 bg-[#7e172a] mx-auto mb-4"></div>
     <p class="text-lg text-bs-text-muted max-w-3xl mx-auto">
-      Visite uma de nossas lojas e experimente nossas delícias feitas na hora!
+      {subtitle}
     </p>
   </div>
 
