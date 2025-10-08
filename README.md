@@ -1,6 +1,6 @@
 # Site Institucional - Pamonhas MIL
 
-![Capa do Projeto](URL_DA_SUA_IMAGEM_DE_CAPA_AQUI)
+<img width="1610" height="1004" alt="image" src="https://github.com/user-attachments/assets/76e1cd12-768f-45f3-9498-e697aec9d7f9" />
 
 *Status do Projeto: Em Desenvolvimento | **Concluído** | Arquivado*
 
@@ -110,4 +110,5 @@ Agradeço à **Iasnaia Marques** e à **Pamonhas MIL** pela confiança e pela op
 
 * [LinkedIn](URL_DO_SEU_LINKEDIN)
 * [Portfólio](URL_DO_SEU_PORTFOLIO)
+
 * [Email](SEU_EMAIL_DE_CONTATO)
