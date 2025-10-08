@@ -1,8 +1,12 @@
 # Site Institucional - Pamonhas MIL
 
+<br>
 <img width="1610" height="1004" alt="image" src="https://github.com/user-attachments/assets/76e1cd12-768f-45f3-9498-e697aec9d7f9" />
+<br><br>
+<br>
 
-*Status do Projeto: Em Desenvolvimento | **Concluído** | Arquivado*
+
+*Status do Projeto: **Concluído***
 
 ---
 
@@ -106,9 +110,6 @@ Agradeço à **Iasnaia Marques** e à **Pamonhas MIL** pela confiança e pela op
 
 ### 📫 Contato
 
-**[Seu Nome Completo]**
-
-* [LinkedIn](URL_DO_SEU_LINKEDIN)
-* [Portfólio](URL_DO_SEU_PORTFOLIO)
-
-* [Email](SEU_EMAIL_DE_CONTATO)
+**Peterson Almeida**
+* [LinkedIn](https://www.linkedin.com/in/peterson-paulo-marques/)
+* [Email](peterpaulodev@gmail.com)
